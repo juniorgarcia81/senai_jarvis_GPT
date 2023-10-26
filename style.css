@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-boxç
+}
+
+body.dark-mode {
+    background-color: #111;
+    color: #fff;
+}
+
+.lateral.dark-mode {
+    background-color: #222;
+}
+
+input.dark-mode {
+    background-color: #333;
+    color: #fff;
+    border-color: #fff;
+
+}
+
+body{
+    background-color:white;
+    font-family: 'inter', sans-serif;
+    color: #272727;
+
+}
+.container{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    height: 100vh;
+}
+
+button{
+    padding: 12px 15px;
+    border-radius: 50%;
+    border: none;
+    background-color: #dd203c;
+    color: white;
+    cursor: pointer;
+
+}
+input {
+    padding: 12px 15px;
+    border-style: none;
+    border-bottom: black 1px solid;
+    text-align: left;
+    min-width: 300px;
+
+    
+}
+
+input:focus {
+outline: none;
+}
+
+.lateral{
+    background-color: #dd203c;
+    height: 100vh;
+    width: 5%;
+    
+
+}
+
+.central{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+}
+
+.caixa-texto{
+    margin-bottom: 150px;
+
+}
+
+.com-audio {
+    background-color: #dd203c;
+    color: white;
+}
+
+/* Estilos para o botão sem áudio */
+.sem-audio {
+    background-color: #333; /* Cor de fundo para o modo escuro */
+    color: white;
+}
